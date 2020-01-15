@@ -1,0 +1,27 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "Backend for the whitebox-code-challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuamr/whitebox-code-challenge-backend.git"
+  },
+  "author": "Joshua Meriyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuamr/whitebox-code-challenge-backend/issues"
+  },
+  "homepage": "https://github.com/joshuamr/whitebox-code-challenge-backend#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
